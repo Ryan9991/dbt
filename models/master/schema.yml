@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: dbt
+      database: ryan-99
+
+      tables:
+        - name: bronze_games_post_wide
+        - name: bronze_games_wide
