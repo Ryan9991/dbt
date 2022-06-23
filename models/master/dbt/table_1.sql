@@ -2,9 +2,9 @@
     config(
         materialized = 'incremental',
         unique_key = 'id',
-        merge_update_columns = 'absen',
-        alias = 'table_1',
+        merge_update_columns = ['absen'],
         schema = 'dbt',
+        alias = 'table_1'
     )
 }}
 
