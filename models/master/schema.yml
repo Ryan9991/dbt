@@ -7,3 +7,5 @@ sources:
       tables:
         - name: bronze_games_post_wide
         - name: bronze_games_wide
+        - name: table_1
+        - name: table_2
